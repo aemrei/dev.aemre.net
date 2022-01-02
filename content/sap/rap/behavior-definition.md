@@ -1,5 +1,5 @@
 ---
 title: Behavior Definition
 ---
-# Behavior Definition
 
+# Behavior Definition
