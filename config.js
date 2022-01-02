@@ -54,7 +54,7 @@ const config = {
     title: 'Developer Blog | dev.aemre.net',
     description: 'Documentation and blogging for development experiences',
     ogImage: null,
-    docsLocation: 'https://github.com/aemrei/dev.aemre.net/tree/master/content',
+    docsLocation: 'https://github.dev/aemrei/dev.aemre.net/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

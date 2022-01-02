@@ -13,7 +13,6 @@ title: ValueHelp
 Meins,
 ```
 
-
 ## ValueHelp additional binding
 
 ```cds
@@ -24,4 +23,10 @@ Meins,
     }
 ]
 Meins,
+```
+
+## ValueHelp
+
+```cds
+
 ```
