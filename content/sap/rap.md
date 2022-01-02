@@ -1,4 +1,4 @@
 ---
-title: Restful ABAP Programming
+title: RAP (Restful ABAP Programming)
 ---
 # RAP
