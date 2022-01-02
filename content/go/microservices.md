@@ -2,8 +2,6 @@
 
 ## Very simple service
 
-
-
 ```go
 package main
 
@@ -21,8 +19,6 @@ func main() {
 ```
 
 <[- The Go Programming Language](https://go.dev/src/net/http/server.go?s=61509%3A61556#L2378)>
-
-
 
 ## Read write data
 

@@ -21,6 +21,6 @@ The following is a code block with diff. Lines with `+` highlighted in green sha
 
 ## Live Editing example
 
-```javascript react-live=true
+```javascript
 <button className={'btn btn-default'}>Change my text</button>
 ```
