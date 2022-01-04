@@ -1,5 +1,6 @@
 ---
 title: XML View Event Binding
+metaTitle: XML View Event Binding
 ---
 
 # XML View Event Binding
