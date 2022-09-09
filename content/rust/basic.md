@@ -23,22 +23,20 @@ struct MyStruct {x: i64, y: bool}
 
 
 enum Color {
-	Green,
-	Red,
-	Yellow,
-	Custom {red: u8, green: u8, blue: u8},
-	TupleCustom(u8, u8, u8),
+    Green,
+    Red,
+    Yellow,
+    Custom {red: u8, green: u8, blue: u8},
+    TupleCustom(u8, u8, u8),
 }
 
 let stop = Color::Red;
 let purple = Color::Custom {red: 100, green: 0, blue: 250};
 let purple2 = Color::TupleCustom (100, 0, 250);
-
-
-
 ```
 
 ## Vectors
+
 ```rust
 let mut years: Vec<i32> = vec![1995, 2000, 2005];
 years.push(2010); // Now `years` has 4 elements,
@@ -49,18 +47,16 @@ years.push(2015); // Now `years` has 5 elements,
 println!("Number of years: {}", years.len());
 ```
 
-
 ## Iterations
 
 ```rust
 for year in years.iter() {
-	println!("Next year: {}", year + 1);
+    println!("Next year: {}", year + 1);
 }
-
 ```
 
-
 ## Conditionals
+
 ```rust
 match current_color {
     Color::Green => {
@@ -73,7 +69,6 @@ match current_color {
         println!("{} {} {}", red, green, blue);
     }
 }
-
 ```
 
 ```rust
@@ -89,4 +84,3 @@ let color_str = match current_color {
     }
 };
 ```
-

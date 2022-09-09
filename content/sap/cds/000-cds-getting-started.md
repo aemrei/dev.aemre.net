@@ -17,8 +17,6 @@ define view Z21_Header as select from t000
 } where mandt = $session.client
 ```
 
-
-
 ## Sample header and item table views
 
 CDS: `Z21_Header`
@@ -107,7 +105,6 @@ select from t000
     40 as myquantity,
     'ST' as myunit
 } where mandt = $session.client
-
 ```
 
 CDS: `Z21_Type`
@@ -148,7 +145,4 @@ select from t000
     key 'T' as spras,
     'cift' as mytext
 } where mandt = $session.client
-
 ```
-
-

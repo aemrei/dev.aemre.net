@@ -16,8 +16,6 @@ define view E_SalesDocumentItemBasic
 }
 ```
 
-
-
 ```cds
 @AbapCatalog.sqlViewAppendName: 'ZXESDIBPRIO'
 extend view E_SalesDocumentItemBasic
@@ -27,9 +25,7 @@ extend view E_SalesDocumentItemBasic
 {
   @ObjectModel.foreignKey.association: '_ZZPriority'
   Persistence.zzprio as ZZPriority,
-  
+
   _ZZPriority 
 }
 ```
-
-

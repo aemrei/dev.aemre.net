@@ -3,10 +3,10 @@ title: ValueHelp ABAP Handler
 ---
 
 Sample request:
+
 ```
 Get?Name='%2FFGLR%2FSH_SHIP_TO_PARTY'&Type='SH'&Filters='%5B%7B%22name%22%3A%22PARTNERIN%22%2C%22params%22%3A%5B%7B%22sign%22%3A%22I%22%2C%22option%22%3A%22EQ%22%2C%22low%22%3A%221000031%22%7D%5D%7D%2C%7B%22name%22%3A%22PARTNER_FCT%22%2C%22params%22%3A%5B%7B%22sign%22%3A%22I%22%2C%22option%22%3A%22EQ%22%2C%22low%22%3A%22ZFIT0002%22%7D%5D%7D%2C%7B%22name%22%3A%22PKIND%22%2C%22params%22%3A%5B%7B%22sign%22%3A%22I%22%2C%22option%22%3A%22EQ%22%2C%22low%22%3A%2202%22%7D%5D%7D%5D'&MaxResult=500&RespectConversion=true
 ```
-
 
 ```abap
 class /FGLC/VALUE_HELP definition
@@ -332,7 +332,6 @@ CLASS /FGLC/CL_COMMON_VALUE__DPC_EXT IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
-
 
 ```abap
 class /FGLC/CL_COMMON_VALUE__MPC_EXT definition

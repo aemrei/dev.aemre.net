@@ -41,7 +41,7 @@ title: SAP Workflow
 - `[T:SWIA]` -->WF Admin
 
 - standart bor u kopyalama ve onun yerine zli bor u göstermek için;
-
+  
   [Business Object Delegation - Business Intelligence (BusinessObjects) - Community Wiki](https://wiki.scn.sap.com/wiki/display/BOBJ/Business+Object+Delegation)
 
 ## References

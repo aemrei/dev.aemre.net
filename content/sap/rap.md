@@ -1,5 +1,4 @@
 ---
-
 title: RAP (Restful ABAP Programming)
 ---
 

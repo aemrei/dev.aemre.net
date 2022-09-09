@@ -46,8 +46,6 @@ define view Z21_C_HEADER as select from Z21_Header
 }
 ```
 
-
-
 ## SQL Console
 
 View and follow associations with **F8**, then you can show SQL command from **SQL Console** button.
@@ -79,5 +77,3 @@ Right click ➡️Open with ➡️Active Annotations
 ## CDS Navigator
 
 Right to Project Explorer, click the CDS Navigator. You can see CDS Extensions, metadata extensions etc.
-
-

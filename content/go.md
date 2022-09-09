@@ -16,7 +16,6 @@ func main() {
     z      complex128 = cmplx.Sqrt(-5 + 12i)
   )
 }
-
 ```
 
 ## Conditions and loops
